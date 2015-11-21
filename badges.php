@@ -1,33 +1,26 @@
-
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="row">
+		<div class="page-header text-right">
+			 <div class="col-xs-6 col-md-3">
+    		<a href="#" class="thumbnail ">
+      			<img src="images/bob_esponja-animacao.jpg" alt="..." class="img-circle">
+    		</a>
+  			</div>
+  			<h1>Example page header <small>Subtext for header</small></h1>
+		</div>
+	</div>
 	<!-- ************************************************** -->
-	
+<?php for ($j= 0; $j < 3; $j++): ?>
 	<div class="row">
 		<div class="col-sm-1 col-md-2">&nbsp;</div>
 		<div class="col-sm-10 col-md-8">
-			<div class="row">
-				<div class="col-sm-4 col-md-4">
-					<div class="thumbnail">
-						<img src="images/smokin.png" alt="badge">
-						<div class="caption">
-							<h3>Lições Completas</h3>
-							<h4>6 Nov, 2015</h4>
-							<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-4 col-md-4">
-					<div class="thumbnail">
-						<img src="images/smokin.png" alt="badge">
-						<div class="caption">
-							<h3>Lições Completas</h3>
-							<h4>6 Nov, 2015</h4>
-							<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-						</div>
-					</div>
-				</div>
-
-
+			<div class="row"> <!-- bloco com as badge -->
+				<?php for ($i= 0; $i < 3; $i++): ?>
+				
 				<div class="col-sm-4 col-md-4">
 					<div class="thumbnail">
 						<img src="images/smokin.png" alt="badge">
@@ -45,59 +38,20 @@
 					</div>
 				</div>
 
-
+				<?php endfor;  ?>
 			</div><!-- /row -->
 		</div>
 		<div class="col-sm-1 col-md-2">&nbsp;</div>
 	</div>  <!-- /row -->
+<?php endfor;  ?>
+	<!-- ************************************************** -->
+
+
+
 
 	<!-- ************************************************** -->
 
-	<div class="row"> <!-- segunda parte -->
-		<div class="col-sm-1 col-md-2">&nbsp;</div>
-		<div class="col-sm-10 col-md-8">
-			<div class="row">
-				<div class="col-sm-4 col-md-4">
-					<div class="thumbnail">
-						<img src="images/smokin.png" alt="badge">
-						<div class="caption">
-							<h3>Lições Completas</h3>
-							<h4>6 Nov, 2015</h4>
-							<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-4 col-md-4">
-					<div class="thumbnail">
-						<img src="images/smokin.png" alt="badge">
-						<div class="caption">
-							<h3>Lições Completas</h3>
-							<h4>6 Nov, 2015</h4>
-							<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-4 col-md-4">
-					<div class="thumbnail">
-						<img src="images/smokin.png" alt="badge">
-						<div class="caption">
-							<h3>Lições Completas</h3>
-							<h4>6 Nov, 2015</h4>
-							<p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
-						</div>
-					</div>
-				</div>
-
-			</div><!-- /row -->
-		</div>
-		<div class="col-sm-1 col-md-2">&nbsp;</div>
-	</div>  <!-- /row -->
-
-	<!-- ************************************************** -->
-
-		<!-- Modal -->
+	<!-- Modal -->
 	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	  <div class="modal-dialog" role="document">
 	    <div class="modal-content">
