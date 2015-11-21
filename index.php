@@ -9,6 +9,7 @@
 
 	<!-- Bootstrap -->
 	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/personal.css">
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,7 +19,7 @@
       <![endif]-->
   </head>
   <body>
-  	<header class="container">
+  	<header class="container" >
 		<nav class="navbar navbar-default navbar-fixed-top">
 		  <div class="container-fluid">
 		    <!-- Brand and toggle get grouped for better mobile display -->
@@ -64,6 +65,14 @@
   	<article class="container" >
   		<?php require 'badges.php'; ?>
   	</article>
+	<!-- Footer -->
+	<footer class="text-center">
+	  <a class="up-arrow" href="#" data-toggle="tooltip" title="TO TOP">
+	    <span class="glyphicon glyphicon-chevron-up"></span>
+	  </a><br><br>
+	  <p> bla bla bla <a href="#" data-toggle="tooltip" title="Visit w3schools">bla bla bla</a></p> 
+	</footer>
+
   	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   	<!-- Include all compiled plugins (below), or include individual files as needed -->

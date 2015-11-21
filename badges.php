@@ -1,18 +1,26 @@
+
 	<br>
-	<br>
-	<br>
-	<br>
-	<br>
-	<div class="row">
-		<div class="page-header text-right">
-			 <div class="col-xs-6 col-md-3">
-    		<a href="#" class="thumbnail ">
-      			<img src="images/bob_esponja-animacao.jpg" alt="..." class="img-circle">
-    		</a>
-  			</div>
-  			<h1>Example page header <small>Subtext for header</small></h1>
+	<!-- avatar -->
+
+		<div class="row">
+			<div class="col-sm-1 col-md-2">&nbsp;</div>
+			<div class="page-header text-right col-sm-10 col-md-8">
+				
+				<div class="col-xs-6 col-md-3">
+		    		<a href="#" class="text-right">
+		      			<img src="images/bob_esponja-animacao.jpg" alt="..." class="img-thumbnail img-circle">
+		    		</a>
+	  			</div>
+	  			<h1 class="text-center">
+	  			<small>	 <span class="glyphicon glyphicon-star-empty"></span> </small> &nbsp; C o n q u i t a s &nbsp; <small>	 <span class="glyphicon glyphicon-star-empty"></span> </small> <br>
+	  				<hr><small>Bob Esponja</small>
+	  			</h1>
+	  			
+			</div>
+			<div class="col-sm-3 col-md-5">&nbsp;</div>
 		</div>
-	</div>
+
+	<!-- \avatar -->
 	<!-- ************************************************** -->
 <?php for ($j= 0; $j < 3; $j++): ?>
 	<div class="row">
